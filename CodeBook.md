@@ -38,6 +38,8 @@ These signals were used to estimate variables of the feature vector for each pat
 * fBodyGyroMag
 * fBodyGyroJerkMag
 
+Accelerations are in m/s^2 and Jerks are in m/s^3.
+
 A tidy dataset was created from the original dataset (described above) by extracting only measurements for *mean* and *std* values. The two parts below lists the measurements chosen and the data frames created in the code. 
 
 ### Part I : Measurements used to make the tidy dataset
